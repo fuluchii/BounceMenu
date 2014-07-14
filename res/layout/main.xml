@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#fff"
+        >
+    <me.fuluchii.bouncemenu.widget.BounceMenu android:layout_height="fill_parent" android:layout_width="fill_parent"
+                                              android:background="@null"
+            android:id="@+id/bounceView">
+        <ImageButton android:layout_width="40dp" android:layout_height="40dp"
+                android:src="@drawable/lips2"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:id="@+id/bounce_btn_0"/>
+        <ImageButton android:layout_width="40dp" android:layout_height="40dp"
+                     android:scaleType="fitCenter"
+                     android:src="@drawable/digitaldevice"
+
+                     android:background="@null"
+                     android:id="@+id/bounce_btn_1"/>
+        <ImageButton android:layout_width="40dp" android:layout_height="40dp"
+                     android:scaleType="fitCenter"
+                     android:src="@drawable/addbtn"
+                     android:background="@null"
+                     android:id="@+id/bounce_btn_2"/>
+        <ImageButton android:layout_width="40dp" android:layout_height="40dp"
+                     android:scaleType="fitCenter"
+                     android:src="@drawable/book"
+                     android:background="@null"
+                     android:id="@+id/bounce_btn_3"/>
+
+    </me.fuluchii.bouncemenu.widget.BounceMenu>
+
+
+</LinearLayout>
+
